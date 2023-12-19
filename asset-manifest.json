@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.cca6db3c.css",
+    "main.js": "/Portfolio/static/js/main.68175e01.js",
+    "static/js/787.02627b16.chunk.js": "/Portfolio/static/js/787.02627b16.chunk.js",
+    "static/media/E-commerce.png": "/Portfolio/static/media/E-commerce.6df3ea661805c6b5b974.png",
+    "static/media/Uday-Ullengala.png": "/Portfolio/static/media/Uday-Ullengala.11092325bd7108922cfe.png",
+    "index.html": "/Portfolio/index.html",
+    "main.cca6db3c.css.map": "/Portfolio/static/css/main.cca6db3c.css.map",
+    "main.68175e01.js.map": "/Portfolio/static/js/main.68175e01.js.map",
+    "787.02627b16.chunk.js.map": "/Portfolio/static/js/787.02627b16.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cca6db3c.css",
+    "static/js/main.68175e01.js"
+  ]
+}

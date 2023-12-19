@@ -1,20 +1,16 @@
-import Home from "@src/views/Home"
 import "./scss/index.scss"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap'
-import About from "./views/About";
-import Experience from "./views/Experience";
-import Projects from "./views/Projects";
-import Contact from "./views/Contact";
+import { Route, Routes } from "react-router-dom";
+import Main from "./views/Main";
 
 function App() {
   return (
     <div className="App dark-section">
-      <Home />
-      <About />
-      <Experience />
-      <Projects />
-      <Contact />
+      <Routes>
+        <Route path="/Portfolio/" element={<Main />} />
+      </Routes>
+      
     </div>
   );
 }

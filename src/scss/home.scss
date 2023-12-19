@@ -1,0 +1,65 @@
+.Typewriter__cursor {
+    color: $secondary-color;
+}
+
+.socail-media {
+    position: relative;
+}
+  
+.socail-media a {
+    color: #fff !important;
+}
+  
+.socail-media::before {
+    content: "";
+    width: 2px;
+    height: 60px;
+    position: absolute;
+    left: 50%;
+    top: -80px;
+    transform: translateX(-50%);
+    background-color: $secondary-color;
+}
+  
+.socail-media::after {
+    content: "";
+    width: 2px;
+    height: 60px;
+    position: absolute;
+    left: 50%;
+    bottom: -80px;
+    transform: translateX(-50%);
+    background-color: $secondary-color;
+}
+  
+.socailmedia-icon {
+    transition: 0.3s;
+}
+  
+.socailmedia-icon {
+    transition: 0.5s;
+}
+  
+.socailmedia-icon:hover {
+    rotate: 360deg;
+    scale: 1.2;
+    color: $secondary-color !important;
+}
+  
+.Typewriter {
+    display: inline;
+}
+  
+.hero-section {
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+  
+.color-effect {
+    transition: .3s;
+}
+  
+.color-effect:hover {
+    color: $secondary-color !important;
+}

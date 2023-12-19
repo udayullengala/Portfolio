@@ -1,0 +1,17 @@
+.skill {
+    padding: 5px 14px;
+    background-color: #112c3d;
+    color: $secondary-color;
+    border-radius: 30px;
+    display: grid;
+    place-content: center;
+    font-size: 13px;
+}
+
+.skillHeader {
+    padding-bottom: 5px;
+}
+
+.skillHeader.active {
+    border-bottom: 1px solid $secondary-color;
+}

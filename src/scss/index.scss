@@ -1,0 +1,87 @@
+@import "variables/variables.scss";
+@import "home.scss";
+@import "experience.scss";
+
+.primary-color {
+    color: $primary-color;
+}
+  
+.secondary-color {
+    color: $secondary-color;
+}
+  
+.light-white {
+    color: $light-white;
+}
+
+.white {
+    color: #fff
+}
+
+.dark-section {
+    background-color: $primary-color !important;
+    color: $light-white !important;
+}
+
+li {
+    list-style: none;
+}
+
+h5 {
+    font-size: 25px !important;
+}
+  
+h1 {
+    font-size: 60px !important;
+}
+  
+h4 {
+    font-size: 30px !important;
+}
+
+a {
+    color: $secondary-color;
+    text-decoration: none !important;
+}
+
+.btn-main {
+    padding: 10px 20px;
+    border: 1px solid $secondary-color;
+    border-radius: 3px;
+    background: $secondary-color;
+    transition: 0.3s;
+    color: $light-white;
+    text-decoration: none;
+}
+  
+.btn-main:hover {
+    background: transparent;
+    color: $secondary-color;
+}
+  
+.btn-secondary {
+    padding: 10px 20px;
+    border: 1px solid $secondary-color;
+    border-radius: 3px;
+    background: transparent;
+    transition: 0.3s;
+    color: $secondary-color;
+    text-decoration: none;
+}
+  
+.btn-secondary:hover {
+    background: $secondary-color;
+    color: #fff;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.form-control {
+	background: transparent !important;
+	border: 1px solid $light-white !important;
+	outline: none !important;
+	box-shadow: none !important;
+	color: #fff !important;
+}

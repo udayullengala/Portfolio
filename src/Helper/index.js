@@ -1,0 +1,1 @@
+export const knowledge = ['Html', 'Css', 'Scss', 'JavaScript', 'Bootstrap', 'jQuery', 'React', 'Python', 'Django', 'MySQL']

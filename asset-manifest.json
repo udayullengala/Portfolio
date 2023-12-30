@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.aa6f72e8.css",
-    "main.js": "/static/js/main.7e842d11.js",
-    "static/js/787.02627b16.chunk.js": "/static/js/787.02627b16.chunk.js",
-    "static/media/E-commerce.png": "/static/media/E-commerce.6df3ea661805c6b5b974.png",
-    "static/media/Uday-Ullengala.png": "/static/media/Uday-Ullengala.11092325bd7108922cfe.png",
-    "index.html": "/index.html",
-    "main.aa6f72e8.css.map": "/static/css/main.aa6f72e8.css.map",
-    "main.7e842d11.js.map": "/static/js/main.7e842d11.js.map",
-    "787.02627b16.chunk.js.map": "/static/js/787.02627b16.chunk.js.map"
+    "main.css": "/Portfolio/static/css/main.aa6f72e8.css",
+    "main.js": "/Portfolio/static/js/main.caeb9403.js",
+    "static/js/787.02627b16.chunk.js": "/Portfolio/static/js/787.02627b16.chunk.js",
+    "static/media/E-commerce.png": "/Portfolio/static/media/E-commerce.6df3ea661805c6b5b974.png",
+    "static/media/Uday-Ullengala.png": "/Portfolio/static/media/Uday-Ullengala.11092325bd7108922cfe.png",
+    "index.html": "/Portfolio/index.html",
+    "main.aa6f72e8.css.map": "/Portfolio/static/css/main.aa6f72e8.css.map",
+    "main.caeb9403.js.map": "/Portfolio/static/js/main.caeb9403.js.map",
+    "787.02627b16.chunk.js.map": "/Portfolio/static/js/787.02627b16.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.aa6f72e8.css",
-    "static/js/main.7e842d11.js"
+    "static/js/main.caeb9403.js"
   ]
 }

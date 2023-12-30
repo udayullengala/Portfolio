@@ -2,7 +2,7 @@ import React from 'react'
 import { FaPhoneAlt } from 'react-icons/fa'
 import { IoMail } from 'react-icons/io5'
 
-const Contact = () => {
+const Footer = () => {
   return (
     <div className='container py-5'>
         <h5 className='white'>Get in Touch</h5>
@@ -45,4 +45,4 @@ const Contact = () => {
   )
 }
 
-export default Contact
+export default Footer

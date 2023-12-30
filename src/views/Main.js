@@ -3,7 +3,7 @@ import Home from './Home'
 import About from './About'
 import Experience from './Experience'
 import Projects from './Projects'
-import Contact from './Contact'
+import Footer from './Footer'
 
 const Main = () => {
   return (
@@ -12,7 +12,7 @@ const Main = () => {
         <About />
         <Experience />
         <Projects />
-        <Contact />
+        <Footer />
     </>
   )
 }

@@ -1,0 +1,73 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.p~ 
+*.swp
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Django
+*.log
+*.pot
+*.pyc
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+static/
+local_settings.py
+
+# Django Migrations
+backend_base/**/migrations/*.pyc
+backend_base/**/migrations/__pycache__/
++!backend_base/**/migrations/*.py
+
+# VSCode / IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# dotenv / secrets
+.env
+.env.*
+
+# pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# pyright / mypy / pycache
+.mypy_cache/
+.pyright/
+pytest_cache/
+__pycache__/
+
+# coverage
+htmlcov/
+.coverage
+coverage.xml
+.cache
+
+# tests
+.tox/
+.nox/
+.pytest_cache/
+
+# Build
+build/
+dist/
+*.egg-info/
+
+# Docker
+*.log
+docker-compose.override.yml

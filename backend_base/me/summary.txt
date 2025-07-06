@@ -1,1 +1,67 @@
-I'm a passionate Full Stack Developer with expertise in modern web technologies. Currently working at redchillies.vfx, I specialize in building scalable web applications using React, Next.js, Python, and Django. I enjoy solving complex problems and creating seamless user experiences that bridge the gap between beautiful design and robust functionality. My journey in web development has taken me from frontend specialization to full-stack mastery, allowing me to deliver complete solutions from concept to deployment.
+## Name:
+Uday Ullengala
+
+## Title:
+Full Stack Developer
+
+## Tagline:
+Crafting reliable, modern web experiences from frontend to backend.
+
+## About Me:
+Uday is a passionate Full Stack Developer currently working at Redchillies.vfx. He specializes in building scalable web applications using modern technologies like React, Next.js, Python, and Django.
+
+He enjoys solving complex problems and creating seamless user experiences that combine elegant design with powerful backend functionality. His career journey has taken him from frontend specialization to full-stack mastery, enabling him to deliver complete solutions from concept to deployment.
+
+## Skills:
+
+### Frontend:
+- HTML
+- CSS / SCSS
+- JavaScript
+- React.js
+- Next.js
+- Bootstrap
+
+### Backend:
+- Python
+- Django
+- Node.js
+- RESTful APIs
+
+### Databases:
+- MySQL
+- PostgreSQL
+
+## Experience:
+
+### Redchillies.vfx — Software Developer  
+**Nov 2024 – Present**  
+- Building and maintaining web apps in collaboration with a cross-functional team.
+
+### ALTISSADVANCE TECH PVT LTD — Full Stack Developer  
+**Aug 2022 – Nov 2024**  
+- Led development of web apps, API integrations, and deployments.
+
+### ALTISSADVANCE TECH PVT LTD — Frontend Developer  
+**Apr 2022 – Aug 2022**  
+- Built responsive UIs and collaborated closely with designers.
+
+## Freelance Projects:
+
+### MadHouse Media  
+An influencer marketing platform featuring:
+- User authentication
+- Campaign management
+- TDS/GST-calculated invoices  
+**Stack:** React.js, Python, Django, PostgreSQL
+
+### Burdavan Homes  
+A real estate platform for users to rent, buy, or sell property with:
+- Advanced search and filtering  
+**Stack:** React.js, Python, Django, PostgreSQL
+
+## Contact & Footer:
+
+Feel free to reach out for collaborations, opportunities, or just to say hello!
+
+**Uday Ullengala © 2025** — All rights reserved.

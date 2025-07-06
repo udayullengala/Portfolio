@@ -25,7 +25,7 @@ const Projects = () => {
         <div className="row g-4">
           {projects.map((project, index) => (
             <div key={index} className="col-12 col-md-6">
-              <div className="project-card">
+              <div className="project-card cursor-pointer">
                 <h3 className="h4 font-mono fw-semibold mb-3">{project.title}</h3>
                 <p className="text-muted mb-4">{project.description}</p>
                 <div>

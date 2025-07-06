@@ -42,7 +42,7 @@ const Skills = () => {
                 </h3>
                 <div>
                   {category.skills.map((skill, skillIndex) => (
-                    <div key={skillIndex} className="skill-card">
+                    <div key={skillIndex} className="skill-card cursor-pointer">
                       <span className="text-dark">{skill}</span>
                     </div>
                   ))}

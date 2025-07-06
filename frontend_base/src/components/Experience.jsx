@@ -34,7 +34,7 @@ const Experience = () => {
               {experiences.map((exp, index) => (
                 <div key={index} className="timeline-item">
                   <div className="timeline-dot"></div>
-                  <div className="timeline-content">
+                  <div className="timeline-content cursor-pointer">
                     <h3 className="h5 font-mono fw-semibold mb-2">{exp.company}</h3>
                     <h4 className="h6 text-muted mb-2">{exp.role}</h4>
                     <p className="small font-mono text-muted mb-3">{exp.period}</p>

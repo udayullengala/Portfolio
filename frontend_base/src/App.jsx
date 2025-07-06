@@ -8,6 +8,7 @@ import Footer from "./components/Footer"
 import Chatbot from "./components/ChatBot"
 
 function App() {
+  console.log(import.meta.env)
   return (
     <div className="min-vh-100 bg-white text-black">
       <Hero />

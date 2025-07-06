@@ -241,3 +241,6 @@ p {
     margin-right: 0;
   }
 }
+.cursor-pointer {
+  cursor: pointer;
+}

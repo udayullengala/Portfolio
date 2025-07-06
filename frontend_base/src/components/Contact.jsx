@@ -97,7 +97,7 @@ const Contact = () => {
                 <Github size={24} />
               </a>
               <a
-                href="https://linkedin.com/in/udayullengala"
+                href="https://www.linkedin.com/in/uday-ullengala-bb2aa11b8/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="social-link"
@@ -105,7 +105,7 @@ const Contact = () => {
               >
                 <Linkedin size={24} />
               </a>
-              <a href="mailto:uday.ullengala@example.com" className="social-link" aria-label="Email">
+              <a href="mailto:u.ullengala@gmail.com" className="social-link" aria-label="Email">
                 <Mail size={24} />
               </a>
             </div>

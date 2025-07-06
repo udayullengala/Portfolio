@@ -1,6 +1,5 @@
-"use client"
-
 import { ArrowDown, Download } from "lucide-react"
+import resume from '../assets/images/Uday_FullStack_Developer_Resume.pdf'
 
 const Hero = () => {
   const scrollToNext = () => {
@@ -22,10 +21,10 @@ const Hero = () => {
             </p>
 
             <div className="pt-3">
-              <button className="btn btn-primary btn-lg d-inline-flex align-items-center">
+              <a download href={resume} className="btn btn-primary btn-lg d-inline-flex align-items-center">
                 <Download className="me-2" size={20} />
                 Download Resume
-              </button>
+              </a>
             </div>
           </div>
         </div>

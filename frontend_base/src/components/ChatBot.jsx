@@ -2,6 +2,7 @@ import { useState, useRef, useEffect } from "react"
 import { MessageCircle, X, Send, User, Bot } from "lucide-react"
 import axios from 'axios'
 import ReactMarkdown from 'react-markdown';
+import { BASE_URL } from "../utils/config";
 
 const Chatbot = () => {
     const [isOpen, setIsOpen] = useState(false)
@@ -22,7 +23,7 @@ const Chatbot = () => {
         const form_data = new FormData()
         form_data.append('message', message)
         form_data.append('history', JSON.stringify(messages))
-        axios.post(`http://127.0.0.1:8000/api/chat/`, form_data)
+        axios.post(`${BASE_URL}/api/chat/`, form_data)
         .then((resp) => {
             console.log(resp)
             const botResponse = {

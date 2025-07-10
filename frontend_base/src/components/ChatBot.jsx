@@ -5,7 +5,10 @@ import ReactMarkdown from 'react-markdown';
 import { BASE_URL } from "../utils/config";
 
 const Chatbot = () => {
-    const [isOpen, setIsOpen] = useState(false)
+    const [isOpen, setIsOpen] = useState(() => {
+        const hasOpened = localStorage.getItem('chatbotOpened');
+        return hasOpened ? false : true;
+    });
     const [messages, setMessages] = useState([])
     const [inputMessage, setInputMessage] = useState("")
     const [isTyping, setIsTyping] = useState(false)
@@ -20,6 +23,7 @@ const Chatbot = () => {
     }, [messages])
 
     const getResponse = (message) => {
+        setIsTyping(true)
         const form_data = new FormData()
         form_data.append('message', message)
         form_data.append('history', JSON.stringify(messages))
@@ -56,11 +60,12 @@ const Chatbot = () => {
     }
 
     const quickQuestions = [
-        "What are your skills?",
-        "Tell me about your experience",
-        "Show me your projects",
-        "How can I contact you?",
-    ]
+        "What technologies do you work with?",
+        "Can you walk me through your experience?",
+        "Could you show me some of your recent projects?",
+        "What's the best way to get in touch with you?",
+    ];
+
 
     const handleQuickQuestion = (question) => {
         setInputMessage(question)
@@ -69,12 +74,17 @@ const Chatbot = () => {
             role: 'user',
             content: question
         }
-
+        
         setMessages((prev) => [...prev, userMessage])
-        setIsTyping(true)
-
+        setInputMessage("")
         getResponse(question)
     }
+
+     useEffect(() => {
+        if (isOpen) { 
+            localStorage.setItem('chatbotOpened', 'true');
+        }
+    }, [isOpen]);
 
     return (
         <>
@@ -106,7 +116,7 @@ const Chatbot = () => {
                                     <Bot size={20} />
                                 </div>
                                 <div>
-                                    <h6 className="mb-0 font-mono">Uday's Assistant</h6>
+                                    <h6 className="mb-0 font-mono">Virtual Me</h6>
                                     <small className="text-light opacity-75">Online</small>
                                 </div>
                             </div>

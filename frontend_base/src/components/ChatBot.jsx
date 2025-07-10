@@ -192,7 +192,7 @@ const Chatbot = () => {
                                             <button
                                                 key={index}
                                                 onClick={() => handleQuickQuestion(question)}
-                                                className="btn btn-outline-primary btn-sm me-2 mb-2 small"
+                                                className="btn btn-outline-primary btn-sm me-2 mb-2 small text-left"
                                             >
                                                 {question}
                                             </button>

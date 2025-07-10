@@ -25,7 +25,7 @@ const Contact = () => {
   }
 
   return (
-    <section id="contact" className="py-5 bg-light">
+    <section id="contact" className="py-5 bg-light overflow-hidden">
       <div className="container">
         <div className="row">
           <div className="col-12">

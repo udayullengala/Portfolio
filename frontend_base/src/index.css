@@ -159,26 +159,21 @@ p {
 }
 
 .bounce-animation {
-  animation: bounce 2s infinite;
+  animation: bounce 2s infinite !important;
 }
 
 @keyframes bounce {
-  0%,
-  20%,
-  53%,
-  80%,
-  100% {
-    transform: translate3d(0, 0, 0);
+  0%, 20%, 53%, 80%, 100% {
+    transform: translate3d(-50%, 0, 0);
   }
-  40%,
-  43% {
-    transform: translate3d(0, -30px, 0);
+  40%, 43% {
+    transform: translate3d(-50%, -30px, 0);
   }
   70% {
-    transform: translate3d(0, -15px, 0);
+    transform: translate3d(-50%, -15px, 0);
   }
   90% {
-    transform: translate3d(0, -4px, 0);
+    transform: translate3d(-50%, -4px, 0);
   }
 }
 

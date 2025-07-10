@@ -32,7 +32,7 @@ const Hero = () => {
 
       <button
         onClick={scrollToNext}
-        className="position-absolute bottom-0 start-50 translate-middle-x mb-4 btn btn-link text-dark bounce-animation"
+        className="position-absolute bottom-0 start-50 mb-4 btn btn-link text-dark bounce-animation"
         style={{ border: "none", background: "none" }}
         aria-label="Scroll to next section"
       >

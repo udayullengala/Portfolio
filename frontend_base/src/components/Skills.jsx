@@ -23,6 +23,16 @@ const Skills = () => {
       title: "Databases",
       skills: ["MySQL", "PostgreSQL"],
     },
+    {
+      title: "Development & Cloud", // 🆕 New Category
+      skills: [
+        "AWS EC2",
+        "AWS S3",
+        "Render",
+        "Vercal",
+        "Netlify"
+      ],
+    },
   ]
 
   return (
@@ -35,7 +45,7 @@ const Skills = () => {
         </div>
         <div className="row g-4">
           {skillCategories.map((category, index) => (
-            <div key={index} className="col-12 col-md-4">
+            <div key={index} className="col-12 col-md-6 col-lg-3">
               <div className="mb-4">
                 <h3 className="h4 font-mono fw-semibold border-bottom border-dark border-2 pb-2 mb-4">
                   {category.title}

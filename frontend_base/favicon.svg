@@ -1,7 +1,0 @@
-<svg width="24" height="24" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <rect width="32" height="32" rx="6" fill="currentColor" />
-    <path
-    d="M8 8v8c0 3.314 2.686 6 6 6h4c3.314 0 6-2.686 6-6V8h-3v8c0 1.657-1.343 3-3 3h-4c-1.657 0-3-1.343-3-3V8H8z"
-    fill="#ffffff"
-    />
-</svg>
